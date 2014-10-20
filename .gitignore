@@ -6,9 +6,6 @@ target/
 *.iml
 
 # Eclipse
-.classpath
-.project
-.settings/
 
 # Mac OS X
 .DS_Store
