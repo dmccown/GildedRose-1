@@ -146,4 +146,24 @@ public class GildedRoseTest {
 		assertEquals(50, item.getQuality());
 		assertEquals(4, item.getSellIn());	
 	}
+	
+	@Test
+	public void conjuredItemDegradesTwiceAsFastAsNormalItem() throws Exception {
+		//pending
+	}
+	
+	@Test
+	public void conjuredItemExpiredDegradesTwiceAsFastAsExpiredItem() throws Exception {
+		//pending
+	}
+	
+	@Test
+	public void conjuredItemQualityCantGoBelowZero() throws Exception {
+		//pending		
+	}
+
+	@Test
+	public void conjuredItemQualityCantGoBelowZeroWhenExpired() throws Exception {
+		//pending		
+	}
 }
